@@ -40,7 +40,7 @@ const server = http.createServer(app);
 // app.use(cors());
 
 const corsOptions = {
-  origin: 'http://localhost:5173', // replace with your React app origin
+  origin: 'https://vite-conference.onrender.com', // replace with your React app origin
   credentials: true,
 };
 
